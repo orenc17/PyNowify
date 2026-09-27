@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyNowify"
+version = "0.1.0"
+description = "A dynamic, theme-adapting Spotify Now Playing desktop client built with Tkinter."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Oren Cohen", email = "orenc17@gmail.com" }
+]
+dependencies = [
+    "spotipy>=2.23.0",
+    "colorthief>=0.2.1",
+    "Pillow>=10.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+py-nowify = "py_nowify.cli:main"
