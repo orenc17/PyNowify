@@ -27,10 +27,9 @@ You will need:
 * A device to display Nowify
 
 ### Installation
-1. Clone this repository
-2. Install the packeg
-3. Create [Spotify client keys](#create-spotify-client-keys-spotify-keys)
-4. Create the `.env` file with the keys and you configuration
+1. Clone this repository or install from [Pypi](https://pypi.org/project/PyNowify/)
+2. Create [Spotify client keys](#create-spotify-client-keys-spotify-keys)
+3. Create the `.env` file with the keys and you configuration
 
 ### Usgae
 Launch `py-nowify` from the directory your `.env` resides
