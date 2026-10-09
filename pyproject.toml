@@ -7,7 +7,7 @@ where = ["py_nowify"]
 
 [project]
 name = "PyNowify"
-version = "0.1.0"
+version = "0.1.1"
 description = "A dynamic, theme-adapting Spotify Now Playing desktop client built with Tkinter."
 readme = "README.md"
 requires-python = ">=3.9"
